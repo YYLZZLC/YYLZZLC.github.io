@@ -1,3 +1,39 @@
-baseURL: https://example.org/
-locale: en-us
-title: My New Hugo Project
+baseURL: "https://YYLZZLC.github.io/"
+languageCode: "zh-cn"
+title: "YYLZZLC"
+theme: "PaperMod"
+
+defaultContentLanguage: zh
+hasCJKLanguage: true
+
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+
+pagination:
+  pagerSize: 10
+
+params:
+  env: production
+  description: "技术架构、稳定性与 AI 工程化、故事、经验"
+  author: "YYLZZLC"
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "存思之所，随记随忘"
+    Content: "Distributed Systems · AI Engineering"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/YYLZZLC"
+
+caches:
+  images:
+    dir: :cacheDir/images
