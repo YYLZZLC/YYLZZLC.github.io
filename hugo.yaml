@@ -28,7 +28,7 @@ params:
 
   homeInfoParams:
     Title: "存思之所，随记随忘"
-    Content: "Distributed Systems · AI Engineering"
+    Content: "人类一思考，上帝就发笑"
 
   socialIcons:
     - name: github
